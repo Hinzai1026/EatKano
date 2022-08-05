@@ -10,4 +10,6 @@ CREATE TABLE `kano_rank` (
   `attempts` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;CREATE DATABASE kano DEFAULT CHARSET=utf8;
+USE kano;
+SOURCE kano.sql;
