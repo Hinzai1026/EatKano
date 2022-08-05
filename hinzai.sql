@@ -1,3 +1,0 @@
-CREATE DATABASE kano DEFAULT CHARSET=utf8;
-USE kano;
-SOURCE kano.sql;
